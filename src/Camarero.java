@@ -1,4 +1,12 @@
 public class Camarero {
+
+    /**
+     * La clase camarero es la que se encarga de repartir las burgers que estan en cola
+     *  y restarlas de la cola, ademas tambien se encarga de saber cuando un cliente tiene hambre
+     *  y de saber cuantas burgers hay en la cola disponibles para los clientes
+     */
+
+
     private int burgersEnCola;
 
     public Camarero() {

@@ -2,6 +2,10 @@ import java.util.Random;
 
 public class Cliente extends Thread{
 
+    /**
+     * Clase clientes/cocineto en lq que asignamos id y en el caso del cliente un tiempo randmo de consumicion entre uno
+     * y tres segundos y en el caso del cocinero un tiempo random de produccion entre uno y tres segundos
+     */
 
     private int idCliente;
     private Camarero camarero;
